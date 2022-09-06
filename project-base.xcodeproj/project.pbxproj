@@ -56,15 +56,39 @@
 		1218785428C7BD57004C6486 /* project-base */ = {
 			isa = PBXGroup;
 			children = (
+				1218786928C7BFAB004C6486 /* Core */,
+				1218786A28C7BFB1004C6486 /* Screens */,
+				1218786B28C7BFB9004C6486 /* Resources */,
+			);
+			path = "project-base";
+			sourceTree = "<group>";
+		};
+		1218786928C7BFAB004C6486 /* Core */ = {
+			isa = PBXGroup;
+			children = (
 				1218785528C7BD57004C6486 /* AppDelegate.swift */,
 				1218785728C7BD57004C6486 /* SceneDelegate.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		1218786A28C7BFB1004C6486 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
 				1218785928C7BD57004C6486 /* ViewController.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		1218786B28C7BFB9004C6486 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				1218785B28C7BD57004C6486 /* Main.storyboard */,
 				1218785E28C7BD58004C6486 /* Assets.xcassets */,
 				1218786028C7BD58004C6486 /* LaunchScreen.storyboard */,
 				1218786328C7BD58004C6486 /* Info.plist */,
 			);
-			path = "project-base";
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,7 +313,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 77XX2PXRV7;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "project-base/Info.plist";
+				INFOPLIST_FILE = "project-base/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -317,7 +341,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 77XX2PXRV7;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "project-base/Info.plist";
+				INFOPLIST_FILE = "project-base/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
